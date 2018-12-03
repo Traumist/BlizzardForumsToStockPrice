@@ -137,7 +137,7 @@ def analyzeThreads(threadLinks, section):
                 data = [threadTitle, datePosted, author, 
                         analysis.sentiment.polarity, section]
                 
-                if (analysis.sentiment.subjectivity) > 0.80:
+                if (analysis.sentiment.subjectivity) > 0.75:
                     posts.append(data)                        
     return posts
 
