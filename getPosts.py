@@ -24,7 +24,6 @@ from urllib.parse import urljoin
 
 plt.style.use('seaborn-darkgrid')
 
-
 owGen = 'https://us.forums.blizzard.com/en/overwatch/c/general-discussion'
 owComp = 'https://us.forums.blizzard.com/en/overwatch/c/competitive-discussion'
 owPTR = 'https://us.forums.blizzard.com/en/overwatch/c/ptr-feedback'
